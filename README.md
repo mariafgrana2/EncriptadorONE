@@ -8,6 +8,7 @@
 + "o" se convierte en "ober".
 + "u" se convierte en "ufat".
 
+
 ## 🎨 Características
 1. **Compatibilidad:** Funciona con letras minúsculas (¡nada de gritar!).
 2. **Restricciones:** No admite acentos ni caracteres especiales.
@@ -24,10 +25,12 @@
 El proyecto está en desarrollo activo, se están trabajando en mejoras de la interfaz de usuario y en la optimización del código.
 ¿Quieres verlo en acción? ¡Aquí tienes! 👉🏼 https://mariafgrana2.github.io/EncriptadorONE/
 
+
 ## 🙌🏼 Las manos detrás del Proyecto
 María Granados - arquitecta de esta aplicación 👩🏻‍💻
 Inspirado en las ingeniosas jerigonzas y su capacidad para codificar mensajes.
 Creado con fines educativos para aprender HTML, CSS y JavaScript.
+
 
 ## 💬 Retroalimentación y soporte
 Si tiene algún comentario, sugerencia o problema con el encriptador, no dudes en compartirlo. ¡Tu aporte es muy apreciado!
