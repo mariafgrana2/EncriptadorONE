@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/Icono.png" type="icon">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img  class="logo" src="/img/Icono.png" alt="Logo de alura">
+    </header>
+    <main>
+        <section class="derecha">
+            <textarea class="text-area" id="mensajeInicial" cols="30" rows="10" placeholder="ingresa el texto aqui"></textarea>
+            <div>
+                <h6 class="informacion"><span> <img src="/img/important.svg" alt="Icono de información"></span> Solo letras minúsculas y sin acentos. </h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar();">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar();">Desencriptar</button>
+            </div>
+        </section>
+        <section class="izquierda">
+            <div class="alerta" id="alerta">
+                <img src="/img/persona.png" alt="Mujer buscando con una lupa en la mano" id="alertaImagen">
+                <h2 class="alertaTitulo" id="alertaTitulo">Ningún mensaje fue encontrado</h2>
+                <p class="alertaDescripcion" id="alertaDescripcion">Ingresa el texto y da clic en encriptar o desencriptar según lo necesites.</p>
+            </div>
+            <textarea class="mensaje" id="mensajeFinal" cols="25" rows="12"></textarea>
+            <div class="botones2">
+                <button class="btn-copiar" id="copiar" onclick="btnCopiar();">Copiar</button>
+                <button class="btn-reiniciar" id="limpiar" onclick="location.href='index.html'">Reiniciar</button>
+            </div>
+        </section>
+        <section class="alerta">
+            
+        </section>
+        
+    </main>
+
+    <footer>
+        <p class="creditos">Desarrollado por María Granados para Oracle Next Education con Alura | 2024</p> 
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+</body>
+</html>
+
+
+
